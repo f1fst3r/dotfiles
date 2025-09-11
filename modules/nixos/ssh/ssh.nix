@@ -14,7 +14,7 @@
     settings = {
       PasswordAuthentication = false;
       PermitRootLogin = "no";
-      AllowUsers = [ "fmg" ];
+      AllowUsers = [ "fmg" "tgj" ];
       UseDns = true;
       X11Forwarding = false;
     };

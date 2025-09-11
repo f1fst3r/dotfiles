@@ -31,6 +31,7 @@
     iptables
 
     # Terminal
+    gh
     lazygit
     kitty
     zsh
@@ -49,6 +50,7 @@
     fastfetch
     wlsunset
     nwg-look
+    oh-my-zsh
 
     # Apps
     obsidian

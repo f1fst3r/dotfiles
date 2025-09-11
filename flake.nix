@@ -24,6 +24,7 @@
             sops-nix.nixosModules.sops
             home-manager.nixosModules.home-manager
             ./users/fmg/user.nix
+            ./users/tgj/user.nix
             ./modules/modules.nix
             ./hosts/pc/pc.nix
           ];
