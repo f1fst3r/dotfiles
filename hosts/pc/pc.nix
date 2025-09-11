@@ -2,7 +2,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./wireguard/wireguard.nix
   ];
 
   # Storage Optimisation
@@ -23,17 +22,6 @@
     open = false;
     nvidiaSettings = true;
     package = config.boot.kernelPackages.nvidiaPackages.latest;
-  };
-
-  # OC Tool
-  systemd.services.lact = {
-    description = "AMDGPU Control Daemon";
-    after = [ "multi-user.target" ];
-    wantedBy = [ "multi-user.target" ];
-    serviceConfig = {
-      ExecStart = "${pkgs.lact}/bin/lact daemon";
-    };
-    enable = true;
   };
 
   # Bluetooth

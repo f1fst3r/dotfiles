@@ -1,6 +1,5 @@
 {
   imports = [
-    ./nixos/secrets/secrets.nix
     ./nixos/base/base.nix
     ./nixos/boot/boot.nix
     ./nixos/net/net.nix

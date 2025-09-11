@@ -6,15 +6,15 @@
 
     ports = [ 22 ];
     listenAddresses = [
-      {
-        addr = "10.0.0.2";
-      }
+      #{
+      #  addr = "10.0.0.2";
+      #}
     ];
 
     settings = {
       PasswordAuthentication = false;
       PermitRootLogin = "no";
-      AllowUsers = [ "jakub" ];
+      AllowUsers = [ "fmg" ];
       UseDns = true;
       X11Forwarding = false;
     };
