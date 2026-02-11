@@ -56,7 +56,8 @@
     obsidian
     postman
     firefox
-    neovim
+#    neovim
+    nvim-pkg
     heroic
     rofi
     yazi
