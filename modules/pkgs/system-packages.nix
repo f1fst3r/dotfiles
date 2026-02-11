@@ -61,6 +61,7 @@
     rofi
     yazi
     mpv
+    calibre
 
     # Desktop
     wl-clipboard
